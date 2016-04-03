@@ -1,0 +1,68 @@
+@import url('http://fonts.googleapis.com/css?family=Arvo:regular,bold');
+
+html,body {
+	height:100%;
+}
+body {
+	margin:0;
+	padding:0;
+  background:#000;
+	font-family:Helvetica,arial,serif;
+	font-size:1em;
+	color:#FFF;
+}
+p,h1,h2,ul,li {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+a {
+	outline:none;
+	text-decoration:none;
+	color:#FFF;
+}
+a,p,span,h1 {
+	font-family:'Arvo',arial,serif;
+}
+a:hover {
+	text-decoration:none;
+  cursor: pointer; 
+  cursor: hand;
+  color: #CEBA7D;
+}
+h1 {
+  margin-top:35px;
+  font-size:4em;
+  letter-spacing:-2px;
+}
+h1 a:hover {
+	text-decoration:none;
+}
+#wrapper {
+}
+#content {
+	max-width:700px;
+        margin: 0px auto;
+        padding: 5px;
+}
+ul.general {
+	height:40px; /* Offset above the list of links */
+	font-family:'Arvo',arial,serif;
+}
+li.icon {
+  display: inline-block;
+  margin-right: 2px;
+}
+img.icon {
+  height: 32px;
+  width: 32px;
+}
+.flex-tile-container {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 10px;
+}
+.flex-tile {
+  flex: 1;
+  margin: 0px 10px 10px 0px;
+}

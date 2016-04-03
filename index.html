@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="description" content="John Stoecker, dude not playing a dude, not disguised as another dude"/>
+<meta name="keywords" content="john, stoecker"/>
+<meta name="classification" content="public"/>
+<meta name="resource-type" content="document"/>
+<meta name="author" content="johnstoecker.com"/>
+<meta name="copyright" content="johnstoecker.com"/>
+<link rel="stylesheet" href="css/main.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="assets/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="assets/photoswipe/default-skin/default-skin.css">
+<script src="assets/jquery-2.2.1.min.js"></script>
+<script src="assets/photoswipe/photoswipe.min.js"></script>
+<script src="assets/photoswipe/photoswipe-ui-default.min.js"></script> 
+<script src="assets/main.js"></script>
+<script type="text/javascript">
+    // Google analytics, etc
+	</script>
+<title>johnstoecker.com</title>
+</head>
+<body class="thankyouIE">
+<div id="wrapper">
+	<div id="content">
+    <h1>
+        John Stoecker
+    </h1>
+    <ul id="links" class="links">
+			<li class="github icon"><a title="" href="https://www.github.com/johnstoecker"><img class="icon" src="assets/github-64_white.png"></a></li>
+			<li class="linkedin icon"><a title="" href="http://www.linkedin.com/in/johnstoecker"><img class="icon" src="assets/linkedin_circle_white-64.png"></a></li>
+      <li class="youtube icon"><a title="" href="https://youtube.com/user/johnstoecker"><img class="icon" src="assets/youtube-64.png"</a></li>
+			<li class="twitter icon"><a title="" href="https://twitter.com/jajmu"><img class="icon" src="assets/twitter-64-white.png"</a></li>
+    </ul>
+    <div class="flex-tile-container">
+      <div class="flex-tile">
+	<div class="tile" id="stoecker_tile"><a href="supertowers/supertowers.html">
+          <span class="tile-title"><div class="tile-title-text">S.T.O.E.C.K.E.R. the Board Game</div></span><img class="tile" src="assets/stoecker_tile.jpg">
+        </a></div>
+        <div class="tile-description">A tiled trivia team game with a game master. Complete challenges, upgrade your robot, and take over the world!</div>
+      </div>
+      <div class="flex-tile">
+        <div class="tile" id="thronesy_tile"><a>
+          <span class="tile-title"><div class="tile-title-text">A Very Thronesy Christmas</div></span><img class="tile" src="assets/thronesy.png">
+        </a></div>
+        <div class="tile-description">Christmas carols with a Game of Thrones twist. Spoiler alert!</div>
+      </div>
+      <div class="flex-tile">
+        <div class="tile" id="comics_tile"><a>
+         <span class="tile-title"><div class="tile-title-text">Peace Corps Comics</div></span><img class="tile" src="assets/pccomics.png">
+        </a></div>
+        <div class="tile-description">With a comic artist like this, who needs enemies?</div>
+      </div>
+      <div class="flex-tile">
+        <div class="tile" id="wavesaw_tile">
+          <span class="tile-title"><div class="tile-title-text">The WaveSaw</div></span><img class="tile" src="assets/wavesaw.png">
+          <div class="tile-youtube-link"><a class="youtube icon" id="wavesaw_tile_play"><img src="assets/youtube-64.png"></a></div>
+          <div class="tile-doc-link"><a href="https://ccrma.stanford.edu/~lukedahl/pdfs/Dahl,Whetsell,vanStoecker-Wavesaw-Nime2007.pdf" target="_blank"><img src="assets/document.png"></a></div>
+        </div>
+        <div class="tile-description">A flexible instrument for direct timbral manipulation.</div>
+      </div>
+      </div>
+</div>
+</div>
+<div id="video_iframe" style="display:none;">
+<div class="video_close"><img src="assets/delete_remove.png"></div>
+<iframe class="video_player" style="display:none;" id="wavesaw_player" width="500" height="350" src="https://www.youtube.com/embed/D7aUE8B-n00?enablejsapi=1&version=3&playerapiid=ytplayer" frameborder="0" allowfullscreen></iframe>
+<iframe class="video_player" style="display:none;" id="thronesy_player" width="500" height="350" src="https://www.youtube.com/embed/ZSJR-8v3RpU?list=PLugc43BMDjg-YMGXDES2FWA5YbGCUk4E-&enablejsapi=1&version=3&playerapiid=ytplayer" frameborder="0" allowfullscreen></iframe>
+</div>
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
+

@@ -1,0 +1,42 @@
+.game-header-area {
+  margin-top: 35px;
+}
+h1 {
+  margin-top: 0p;
+  font-size:1.5em;
+  letter-spacing:-1px;
+}
+.game-header-word {
+  display: inline-block;
+  margin-top: 15px;
+  width: 100px;
+  border: 1px solid white;
+}
+.game-header-word:first-letter {
+  font-size:2em;
+}
+.game-top-link {
+  display: inline-block;
+}
+
+.game-top-link a {
+  color: #00D2FF;
+}
+
+.game-top-link a:hover {
+  color: #CEBA7D;
+}
+ 
+.game-top-link+.game-top-link:before
+{
+  content: '| ';
+  color: #FFFFFF;
+}
+
+.game-content-container{
+  margin-top:20px;
+}
+
+.game-content-image {
+  max-width: 700px;
+}
