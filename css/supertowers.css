@@ -6,6 +6,9 @@ h1 {
   font-size:1.5em;
   letter-spacing:-1px;
 }
+h2 {
+  margin-top: 10px;
+}
 .game-header-word {
   display: inline-block;
   margin-top: 15px;
@@ -23,10 +26,14 @@ h1 {
   color: #00D2FF;
 }
 
+.game-top-link a.active {
+  color: #CEBA7D;
+}
+
 .game-top-link a:hover {
   color: #CEBA7D;
 }
- 
+
 .game-top-link+.game-top-link:before
 {
   content: '| ';
@@ -39,4 +46,36 @@ h1 {
 
 .game-content-image {
   max-width: 700px;
+}
+.game-content-image-small {
+  max-width: 350px;
+}
+.game-gold-circle {
+  display: inline-block;
+  border-radius: 50%;
+  width: 1em;
+  height: 1em;
+  background: gold;
+}
+.game-item-shop-container {
+  display: flex;
+  justify-content: center;
+}
+.game-item-shop {
+  max-width: 500px;
+}
+.game-item-name {
+
+}
+.game-item-damage {
+  float: left;
+  max-width: 350px;
+  overflow: hidden;
+  white-space: nowrap
+}
+.game-item-damage:after { content: " .................................................................................." }
+.game-item-price {
+  float: left;
+  width: 100px;
+  overflow: hidden
 }
