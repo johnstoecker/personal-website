@@ -15,7 +15,7 @@
 <link rel="stylesheet" href="assets/photoswipe/default-skin/default-skin.css">
 <script src="assets/jquery-2.2.1.min.js"></script>
 <script src="assets/photoswipe/photoswipe.min.js"></script>
-<script src="assets/photoswipe/photoswipe-ui-default.min.js"></script> 
+<script src="assets/photoswipe/photoswipe-ui-default.min.js"></script>
 <script src="assets/main.js"></script>
 <script type="text/javascript">
     // Google analytics, etc
@@ -35,6 +35,12 @@
 			<li class="twitter icon"><a title="" href="https://twitter.com/jajmu"><img class="icon" src="assets/twitter-64-white.png"</a></li>
     </ul>
     <div class="flex-tile-container">
+			<div class="flex-tile">
+        <div class="tile" id="texts_tile"><a href="text/drift.html">
+          <span class="tile-title"><div class="tile-title-text">Drift</div></span><img class="tile" src="assets/text_tile.png">
+        </a></div>
+        <div class="tile-description">A 3-part short story interspersed with emojis</div>
+      </div>
       <div class="flex-tile">
         <div class="tile" id="defense_tile"><a href="https://www.github.com/johnstoecker/sound-defense">
           <span class="tile-title"><div class="tile-title-text">Sound Defense</div></span><img class="tile" src="assets/sound_defense.png">
@@ -78,14 +84,14 @@
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-    <!-- Background of PhotoSwipe. 
+    <!-- Background of PhotoSwipe.
          It's a separate element as animating opacity is faster than rgba(). -->
     <div class="pswp__bg"></div>
 
     <!-- Slides wrapper with overflow:hidden. -->
     <div class="pswp__scroll-wrap">
 
-        <!-- Container that holds slides. 
+        <!-- Container that holds slides.
             PhotoSwipe keeps only 3 of them in the DOM to save memory.
             Don't modify these 3 pswp__item elements, data is added later on. -->
         <div class="pswp__container">
@@ -123,7 +129,7 @@
             </div>
 
             <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
+                <div class="pswp__share-tooltip"></div>
             </div>
 
             <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
@@ -143,4 +149,3 @@
 </div>
 </body>
 </html>
-
