@@ -1,0 +1,3 @@
+[submodule "nprtop100"]
+	path = nprtop100
+	url = https://github.com/johnstoecker/nprtop100
