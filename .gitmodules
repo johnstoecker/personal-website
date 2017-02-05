@@ -1,3 +1,6 @@
 [submodule "nprtop100"]
 	path = nprtop100
 	url = https://github.com/johnstoecker/nprtop100
+[submodule "panagram-creator"]
+	path = panagram-creator
+	url = https://github.com/johnstoecker/panagram-creator
