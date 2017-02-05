@@ -1,3 +1,6 @@
 [submodule "nprtop100"]
 	path = nprtop100
 	url = https://github.com/johnstoecker/nprtop100
+[submodule "pangram-creator"]
+	path = pangram-creator
+	url = https://github.com/johnstoecker/pangram-creator
