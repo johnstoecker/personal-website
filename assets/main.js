@@ -61,6 +61,7 @@ gallery.init();
 )
 
 closeVideos = function() {
+  $("#content").css("display", "inherit")
   $("#thronesy_player").css("display", "none");
   $("#wavesaw_player").css("display", "none");
   $(".video_player").each(function(){
@@ -71,6 +72,7 @@ closeVideos = function() {
 openVideo = function(id) {
   $("#video_iframe").css("display", "flex");
   closeVideos();
+  $("#content").css("display", "none")
   $("#"+id).css("display", "inherit")
 }
 
@@ -88,7 +90,7 @@ $("#video_close").click(function() {
   $("#video_iframe").css("display", "none")
 })
 
-$("#video_iframe").click(function() { closeVideos(); 
+$("#video_iframe").click(function() { closeVideos();
 $("#video_iframe").css("display", "none");
 })
 
