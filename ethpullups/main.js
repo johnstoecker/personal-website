@@ -28,10 +28,10 @@ $(document).ready(function() {
                   numHTML = "+0"
                   borderClass = "red"
               } else if (current >= end) {
-                  numHTML = "+" + current
+                  numHTML = "+" + (current - start)
                   borderClass = "green"
               } else {
-                  numHTML = "+" + current
+                  numHTML = "+" + (current - start)
                   borderClass = "white"
               }
 
