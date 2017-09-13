@@ -14,6 +14,16 @@ body {
     color: #FFF200;
 }
 
+.subheader {
+    font-size: 38px;
+    text-align: center;
+}
+
+.subsubheader {
+    font-size: 28px;
+    text-align: center;
+}
+
 .kit-status {
     text-align: center;
     color: #F9F8F6;
@@ -32,6 +42,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    margin: 10px;
 }
 
 .player-name {
