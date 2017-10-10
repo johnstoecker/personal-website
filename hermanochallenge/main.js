@@ -16,7 +16,7 @@ $(document).ready(function() {
       console.log(data);
       for(var i=0; i < data.length; i++) {
           var name = data[i].Name
-          var current = parseInt(data[i].Target) - parseInt(data[i].Current) - 4
+          var current = parseInt(data[i].Current) - parseInt(data[i].Target) + 4
           var borderClass = ""
           if (current < 0) {
               current = "-" + current
