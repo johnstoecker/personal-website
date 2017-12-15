@@ -24,6 +24,17 @@ body {
     text-align: center;
 }
 
+.warning-across {
+  justify-content: center;
+  display: flex;
+}
+
+.warning {
+  font-size: 14px;
+  color: red;
+  text-align: center;
+}
+
 .kit-status {
     text-align: center;
     color: #F9F8F6;

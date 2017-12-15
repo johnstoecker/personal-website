@@ -5,7 +5,13 @@ $(document).ready(function() {
   $.get( "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD", function( data ) {
     eths = data.USD * 0.87072
     ethStatus = "$" + eths.toFixed(2) + " ETH"
-    document.getElementById('kit-ltc-status').innerHTML = ethStatus;
+    console.log(data.USD)
+    if (data.USD > 657.65) {
+      ethStatus = ethStatus + " -- sucker!"
+    } else {
+      ethStatus = ethStatus + " -- nice timing!"
+    }
+    document.getElementById('warning-eth-status').innerHTML = ethStatus;
   })
   Tabletop.init({
     key: "1xp9l4himQZeEx9z9dD37IQWp222-QTmpN8Jtx_yUWI4"
