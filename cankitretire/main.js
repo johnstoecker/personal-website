@@ -5,9 +5,9 @@ $(document).ready(function() {
   total = 0
   document.getElementById('kit-prefix').innerHTML = prefix;
   $.get( "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD", function( data ) {
-    eths = data.USD * 1.5319
+    eths = data.USD * 0.34456992
     total += eths
-    if(total > 500000) {
+    if(total > 300000) {
         retireStatus = "KIT CAN RETIRE!!!"
         document.getElementById('kit-retire-status').innerHTML = retireStatus;
     }
@@ -15,14 +15,26 @@ $(document).ready(function() {
     document.getElementById('kit-eth-status').innerHTML = ethStatus;
   })
 
-  $.get( "https://min-api.cryptocompare.com/data/price?fsym=LTC&tsyms=USD", function( data ) {
-    ltcs = data.USD * 6.6804
-    total += ltcs
-    if(total > 500000) {
+  $.get( "https://min-api.cryptocompare.com/data/price?fsym=XRB&tsyms=USD", function( data ) {
+    xrbs = data.USD * 20.47111639
+    total += xrbs
+    if(total > 300000) {
         retireStatus = "KIT CAN RETIRE!!!"
         document.getElementById('kit-retire-status').innerHTML = retireStatus;
     }
-    ltcStatus = "$" + ltcs.toFixed(2) + " LTC"
-    document.getElementById('kit-ltc-status').innerHTML = ltcStatus;
+    xrbStatus = "$" + xrbs.toFixed(2) + " XRB"
+    document.getElementById('kit-xrb-status').innerHTML = xrbStatus;
+  })
+
+
+  $.get( "https://min-api.cryptocompare.com/data/price?fsym=XLM&tsyms=USD", function( data ) {
+    xlms = data.USD * 822.215106535
+    total += xlms
+    if(total > 300000) {
+        retireStatus = "KIT CAN RETIRE!!!"
+        document.getElementById('kit-retire-status').innerHTML = retireStatus;
+    }
+    xlmStatus = "$" + xlms.toFixed(2) + " XLM"
+    document.getElementById('kit-xlm-status').innerHTML = xlmStatus;
   })
 })
