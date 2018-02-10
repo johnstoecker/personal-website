@@ -22,8 +22,9 @@ h3 {
   margin-left: 170px;
 }
 
-.light {
+.subheader {
   font-weight: lighter;
+  margin-bottom: 60px;
 }
 
 .blue {
@@ -38,8 +39,12 @@ h3 {
   color: #DD3333;
 }
 
+.faq-header {
+  margin-top: 50px
+}
+
 .faq {
-  font-size:1.3em;
+  /* font-size:1.3em; */
   color: #DDDDAA;
 }
 .faq-answer {

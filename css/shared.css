@@ -6,10 +6,10 @@ html,body {
 body {
 	margin:0;
 	padding:0;
-  background:#000;
+  background:#222;
 	font-family:Helvetica,arial,serif;
 	font-size:1em;
-	color:#FFF;
+	color:#EEE;
 }
 p,h1,h2,ul,li {
 	padding:0;
