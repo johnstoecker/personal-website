@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 72px;
+    background-color: #008952;
+}
+
+.kit-prefix {
+    text-align: center;
+    color: #FFF200;
+}
+
+.test {
+  display: none;
+}
+
+.kit-status {
+    text-align: center;
+    color: #F9F8F6;
+}
+
+.border-left, .border-right {
+}
