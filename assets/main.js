@@ -1,4 +1,47 @@
 $(document).ready(function() {
+
+  $("#middle_earth_map_tile").click(function() {
+  var pswpElement = document.querySelectorAll('.pswp')[0];
+  // build items array
+  var items = [
+      {
+          src: 'assets/middle_earth_map.jpg',
+          w: 3943,
+          h: 2800
+      },
+      {
+          src: 'assets/thrors_inset.jpg',
+          w: 4032,
+          h: 3024
+      },
+      {
+          src: 'assets/moon_letters_glow.jpg',
+          w: 4032,
+          h: 3024
+      }
+  ];
+  // define options (if needed)
+  var options = {
+
+  				        	mainClass : 'pswp--minimal--dark',
+  					        barsSize : {top:0,bottom:0},
+  						captionEl : false,
+  						fullscreenEl : false,
+  						shareEl : false,
+  						bgOpacity : 0.85,
+  						tapToClose : true,
+  						tapToToggleControls : false,
+      // optionName: 'option value'
+      // for example:
+      index: 0 // start at first slide
+  };
+  // Initializes and opens PhotoSwipe
+  var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+  gallery.init();
+  }
+  )
+
+
 $("#comics_tile").click(function() {
 var pswpElement = document.querySelectorAll('.pswp')[0];
 // build items array
