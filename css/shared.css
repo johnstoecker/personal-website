@@ -54,6 +54,11 @@ img.icon {
   height: 32px;
   width: 32px;
 }
+
+.fullscreenshot {
+	max-width: 100%;
+}
+
 .flex-tile-container {
   display: flex;
   flex-flow: row wrap;
