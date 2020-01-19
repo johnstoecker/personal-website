@@ -1,5 +1,3 @@
-,@import url('http://fonts.googleapis.com/css?family=Arvo:regular,bold');
-
 html,body {
 	height:100%;
 }
@@ -22,7 +20,7 @@ a {
 	color:#FFF;
 }
 h1 {
-	font-family:'Arvo',arial,serif;
+	font-family:Helvetica,arial,serif;
 }
 a:hover {
 	text-decoration:none;

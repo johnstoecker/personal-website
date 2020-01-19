@@ -139,7 +139,8 @@ $("#video_iframe").css("display", "none");
 
 $("#wavesaw_tile_play").click(function(){ openVideo("wavesaw_player");})
 
-
-
+if ((window.location.href).includes("pccomics")){
+  $("#comics_tile").click();
+}
 
 })
