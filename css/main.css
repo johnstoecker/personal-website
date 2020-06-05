@@ -101,6 +101,12 @@ img.icon {
   width: 300px;
   height: 222px;
 }
+#sine_wave_city_tile img {
+	width: 300px;
+	height: auto;
+	top: 20%;
+}
+
 #video_iframe{
   position:absolute;
   z-index: 5000;
