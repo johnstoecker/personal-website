@@ -78,3 +78,49 @@ img.icon {
 	text-align: center;
 	text-indent: 0px;
 }
+.poem-header {
+	font-family: monospace;
+	font-size: 3em;
+	font-weight: 400;
+}
+.poem-creation {
+	font-family: monospace;
+  line-height: 1.4;
+}
+.poem-image {
+	 height:222px;
+	 width:300px;
+	 margin: 5px;
+}
+
+.poem-partition {
+  display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+@media only screen and (max-width: 730px) {
+	.poem-partition {
+		justify-content: initial;
+	}
+	.poem-image {
+		height:148px;
+		width:200px;
+		margin: 20px;
+	}
+}
+@media only screen and (max-width: 650px) {
+	.poem-header {
+		text-align: center;
+	}
+	.poem-partition {
+		justify-content:center;
+	}
+	.right-side {
+		flex-direction: column-reverse;
+	}
+	.poem-image {
+		height:148px;
+		width:200px;
+		margin: 20px auto -10px auto;
+	}
