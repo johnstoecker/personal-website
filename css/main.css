@@ -72,6 +72,9 @@ img.icon {
 .tile {
   position:relative;
 }
+.tile:hover {
+	transform: scale(1.01);
+}
 .tile-title {
   position: absolute;
   z-index: 1000;
