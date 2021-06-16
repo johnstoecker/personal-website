@@ -5,17 +5,17 @@ $(document).ready(function() {
   // build items array
   var items = [
       {
-          src: 'assets/middle_earth_map.jpg',
+          src: 'https://stoeckerimages.s3.us-west-2.amazonaws.com/assets/middle_earth_map.jpg',
           w: 3943,
           h: 2800
       },
       {
-          src: 'assets/thrors_inset.jpg',
+          src: 'https://stoeckerimages.s3.us-west-2.amazonaws.com/assets/thrors_inset.jpg',
           w: 4032,
           h: 3024
       },
       {
-          src: 'assets/moon_letters_glow.jpg',
+          src: 'https://stoeckerimages.s3.us-west-2.amazonaws.com/assets/moon_letters_glow.jpg',
           w: 4032,
           h: 3024
       }
@@ -47,37 +47,37 @@ var pswpElement = document.querySelectorAll('.pswp')[0];
 // build items array
 var items = [
     {
-        src: 'assets/pccomics/3goals.jpg',
+        src: 'https://stoeckerimages.s3.us-west-2.amazonaws.com/assets/pccomics/3goals.jpg',
         w: 1600,
         h: 1600
     },
     {
-        src: 'assets/pccomics/mefloquine.jpg',
+        src: 'https://stoeckerimages.s3.us-west-2.amazonaws.com/assets/pccomics/mefloquine.jpg',
         w: 1600,
         h: 1600
     },
     {
-        src: 'assets/pccomics/greetings.jpg',
+        src: 'https://stoeckerimages.s3.us-west-2.amazonaws.com/assets/pccomics/greetings.jpg',
         w: 1600,
         h: 1600
     },
     {
-        src: 'assets/pccomics/pens.jpg',
+        src: 'https://stoeckerimages.s3.us-west-2.amazonaws.com/assets/pccomics/pens.jpg',
         w: 1600,
         h: 1600
     },
     {
-        src: 'assets/pccomics/dragon.jpg',
+        src: 'https://stoeckerimages.s3.us-west-2.amazonaws.com/assets/pccomics/dragon.jpg',
         w: 1600,
         h: 1600
     },
     {
-        src: 'assets/pccomics/motorcycle.jpg',
+        src: 'https://stoeckerimages.s3.us-west-2.amazonaws.com/assets/pccomics/motorcycle.jpg',
         w: 1600,
         h: 1600
     },
     {
-        src: 'assets/pccomics/seriousIT.jpg',
+        src: 'https://stoeckerimages.s3.us-west-2.amazonaws.com/assets/pccomics/seriousIT.jpg',
         w: 1600,
         h: 1600
     }
